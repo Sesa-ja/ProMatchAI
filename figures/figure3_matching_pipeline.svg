@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 3. Recommendation and matching pipeline</title>
+  <desc id="desc">A professional flowchart showing the recommendation process from candidate and opportunity inputs through normalization, hard filtering, structured scoring, text similarity, reciprocal scoring, and final ranking.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef3f9"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5f718b"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #18324f; }
+      .subtitle { font: 400 17px Arial, sans-serif; fill: #5e718a; }
+      .boxTitle { font: 700 23px Arial, sans-serif; fill: #17324f; }
+      .boxText { font: 400 18px Arial, sans-serif; fill: #35506d; }
+      .note { font: 400 15px Arial, sans-serif; fill: #5e718a; }
+    </style>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <text x="800" y="58" text-anchor="middle" class="title">Figure 3. Recommendation and Matching Pipeline</text>
+  <text x="800" y="92" text-anchor="middle" class="subtitle">ProMatchAI transforms profile data into ranked recommendations through normalization, filtering, scoring, and explanation generation.</text>
+
+  <rect x="90" y="220" width="290" height="120" rx="24" ry="24" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="235" y="272" text-anchor="middle" class="boxTitle">Candidate Profile Input</text>
+  <text x="235" y="307" text-anchor="middle" class="boxText">Skills, languages, experience,</text>
+  <text x="235" y="335" text-anchor="middle" class="boxText">learning, interests, badges</text>
+
+  <rect x="90" y="560" width="290" height="120" rx="24" ry="24" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="235" y="612" text-anchor="middle" class="boxTitle">Opportunity Input</text>
+  <text x="235" y="647" text-anchor="middle" class="boxText">Required skills, languages,</text>
+  <text x="235" y="675" text-anchor="middle" class="boxText">location, work mode, category</text>
+
+  <rect x="470" y="170" width="300" height="120" rx="24" ry="24" fill="#eef5ff" stroke="#bfd3ef" stroke-width="3"/>
+  <text x="620" y="222" text-anchor="middle" class="boxTitle">Normalize Candidate</text>
+  <text x="620" y="257" text-anchor="middle" class="boxText">Canonical profile arrays and</text>
+  <text x="620" y="285" text-anchor="middle" class="boxText">text representation</text>
+
+  <rect x="470" y="610" width="300" height="120" rx="24" ry="24" fill="#eef5ff" stroke="#bfd3ef" stroke-width="3"/>
+  <text x="620" y="662" text-anchor="middle" class="boxTitle">Normalize Opportunity</text>
+  <text x="620" y="697" text-anchor="middle" class="boxText">Canonical requirements and</text>
+  <text x="620" y="725" text-anchor="middle" class="boxText">text representation</text>
+
+  <polygon points="960,360 1110,470 960,580 810,470" fill="#fff8ef" stroke="#f0d7a6" stroke-width="3"/>
+  <text x="960" y="448" text-anchor="middle" class="boxTitle">Hard Filters</text>
+  <text x="960" y="480" text-anchor="middle" class="boxText">Languages, location,</text>
+  <text x="960" y="506" text-anchor="middle" class="boxText">minimum skills</text>
+
+  <polygon points="1240,360 1375,470 1240,580 1105,470" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="1240" y="450" text-anchor="middle" class="boxTitle">Passes</text>
+  <text x="1240" y="480" text-anchor="middle" class="boxText">filters?</text>
+
+  <rect x="1180" y="170" width="310" height="120" rx="24" ry="24" fill="#f2fbf8" stroke="#b9e5da" stroke-width="3"/>
+  <text x="1335" y="222" text-anchor="middle" class="boxTitle">Structured Feature Scoring</text>
+  <text x="1335" y="257" text-anchor="middle" class="boxText">Skills, language, experience,</text>
+  <text x="1335" y="285" text-anchor="middle" class="boxText">location, preferences, badges</text>
+
+  <rect x="1180" y="650" width="310" height="120" rx="24" ry="24" fill="#f5f2ff" stroke="#d5c8f6" stroke-width="3"/>
+  <text x="1335" y="702" text-anchor="middle" class="boxTitle">Text Similarity</text>
+  <text x="1335" y="737" text-anchor="middle" class="boxText">TF-IDF vectors and</text>
+  <text x="1335" y="765" text-anchor="middle" class="boxText">cosine similarity</text>
+
+  <rect x="1180" y="400" width="310" height="140" rx="24" ry="24" fill="#e9f8f5" stroke="#9ad8c9" stroke-width="3"/>
+  <text x="1335" y="452" text-anchor="middle" class="boxTitle">Reciprocal Match Score</text>
+  <text x="1335" y="487" text-anchor="middle" class="boxText">Combine candidate-to-job and</text>
+  <text x="1335" y="515" text-anchor="middle" class="boxText">job-to-candidate scores, then</text>
+  <text x="1335" y="543" text-anchor="middle" class="boxText">rank Top-K recommendations</text>
+
+  <rect x="1180" y="820" width="310" height="100" rx="24" ry="24" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="1335" y="865" text-anchor="middle" class="boxTitle">UI Output and Explanations</text>
+  <text x="1335" y="895" text-anchor="middle" class="boxText">Dashboard, Jobs, Admin panels</text>
+
+  <rect x="810" y="760" width="220" height="90" rx="22" ry="22" fill="#fff1f1" stroke="#eab6b6" stroke-width="3"/>
+  <text x="920" y="805" text-anchor="middle" class="boxTitle">Reject Match</text>
+  <text x="920" y="835" text-anchor="middle" class="boxText">Score = 0</text>
+
+  <line x1="380" y1="280" x2="470" y2="230" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="380" y1="620" x2="470" y2="670" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="770" y1="230" x2="870" y2="390" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="770" y1="670" x2="870" y2="550" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1110" y1="470" x2="1180" y2="470" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1240" y1="360" x2="1335" y2="290" stroke="#5f718b" stroke-width="4.5" marker-end="url(#arrow)"/>
+  <line x1="1240" y1="580" x2="1335" y2="650" stroke="#5f718b" stroke-width="4.5" marker-end="url(#arrow)"/>
+  <line x1="1335" y1="290" x2="1335" y2="400" stroke="#5f718b" stroke-width="4.5" marker-end="url(#arrow)"/>
+  <line x1="1335" y1="650" x2="1335" y2="540" stroke="#5f718b" stroke-width="4.5" marker-end="url(#arrow)"/>
+  <line x1="1335" y1="540" x2="1335" y2="820" stroke="#5f718b" stroke-width="4.5" marker-end="url(#arrow)"/>
+  <line x1="1240" y1="580" x2="920" y2="760" stroke="#8ca0bb" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="800" y="950" text-anchor="middle" class="note">Source: Author-generated flowchart based on the implemented normalization, filtering, weighted scoring, cosine similarity, and reciprocal ranking logic.</text>
+</svg>

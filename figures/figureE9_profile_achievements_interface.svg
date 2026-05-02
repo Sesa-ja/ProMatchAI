@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Figure E9. Profile and achievements interface overview</title>
+  <desc id="desc">A visual overview of the profile screen showing personal information, skills, achievements, certificates, and CV export functionality.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef7fb"/>
+      <stop offset="100%" stop-color="#dbeaf6"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 32px Arial, sans-serif; fill: #18324f; }
+      .subtitle { font: 400 16px Arial, sans-serif; fill: #5d728c; }
+      .h1 { font: 700 24px Arial, sans-serif; fill: #17324f; }
+      .h2 { font: 700 19px Arial, sans-serif; fill: #17324f; }
+      .body { font: 400 17px Arial, sans-serif; fill: #35516e; }
+      .small { font: 400 14px Arial, sans-serif; fill: #6d8299; }
+      .white { fill: #ffffff; }
+    </style>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <text x="800" y="56" text-anchor="middle" class="title">Figure E9. Profile and Achievements Interface Overview</text>
+  <text x="800" y="88" text-anchor="middle" class="subtitle">Illustrative visual based on the profile tab, showing user identity, skill profile, achievements, certificates, and CV support.</text>
+
+  <rect x="100" y="130" width="1400" height="780" rx="34" ry="34" fill="#f8fcff" stroke="#cdddea" stroke-width="3"/>
+  <rect x="140" y="170" width="1320" height="190" rx="30" ry="30" fill="url(#hero)"/>
+  <circle cx="250" cy="265" r="58" fill="#ffffff" fill-opacity="0.25" stroke="#ffffff" stroke-width="3"/>
+  <text x="250" y="275" text-anchor="middle" class="white" style="font:700 26px Arial, sans-serif;">U</text>
+  <text x="340" y="245" class="white" style="font:700 28px Arial, sans-serif;">User Profile</text>
+  <text x="340" y="285" class="white" style="font:400 18px Arial, sans-serif;">Skills, applications, achievements, and certificates</text>
+  <rect x="1140" y="225" width="260" height="80" rx="22" ry="22" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="1270" y="258" text-anchor="middle" class="white" style="font:700 18px Arial, sans-serif;">Download CV</text>
+  <text x="1270" y="286" text-anchor="middle" class="white" style="font:400 15px Arial, sans-serif;">AI-enhanced export ready</text>
+
+  <rect x="140" y="400" width="620" height="220" rx="28" ry="28" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="180" y="450" class="h1">Skills and Summary</text>
+  <rect x="180" y="482" width="110" height="34" rx="14" ry="14" fill="#eef5ff"/><text x="235" y="505" text-anchor="middle" class="small">React</text>
+  <rect x="305" y="482" width="110" height="34" rx="14" ry="14" fill="#eef5ff"/><text x="360" y="505" text-anchor="middle" class="small">TypeScript</text>
+  <rect x="430" y="482" width="110" height="34" rx="14" ry="14" fill="#eef5ff"/><text x="485" y="505" text-anchor="middle" class="small">Communication</text>
+  <text x="180" y="560" class="body">Profile completeness, work preferences, learning history,</text>
+  <text x="180" y="590" class="body">and contact information are maintained in this section.</text>
+
+  <rect x="800" y="400" width="660" height="220" rx="28" ry="28" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="840" y="450" class="h1">Achievements</text>
+  <text x="840" y="495" class="body">Learning Master</text>
+  <rect x="1080" y="482" width="260" height="14" rx="7" ry="7" fill="#dce7f0"/>
+  <rect x="1080" y="482" width="190" height="14" rx="7" ry="7" fill="#f59e0b"/>
+  <text x="840" y="555" class="body">Skill Builder</text>
+  <rect x="1080" y="542" width="260" height="14" rx="7" ry="7" fill="#dce7f0"/>
+  <rect x="1080" y="542" width="156" height="14" rx="7" ry="7" fill="#8b5cf6"/>
+
+  <rect x="140" y="660" width="1320" height="210" rx="28" ry="28" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="180" y="710" class="h1">Certificates</text>
+  <rect x="180" y="735" width="1240" height="50" rx="18" ry="18" fill="#f8fbff" stroke="#d9e7f2" stroke-width="2"/>
+  <text x="210" y="767" class="body">Web Development Basics Certificate · ProMatchAI Learning Centre</text>
+  <rect x="180" y="802" width="1240" height="50" rx="18" ry="18" fill="#f8fbff" stroke="#d9e7f2" stroke-width="2"/>
+  <text x="210" y="834" class="body">Customer Service Excellence Certificate · ProMatchAI Learning Centre</text>
+
+  <text x="800" y="945" text-anchor="middle" class="small">Suggested placement: Appendix E, as Figure E9. Suitable for Chapter 4 only if the profile system, achievements, or CV-generation features are discussed in detail.</text>
+</svg>

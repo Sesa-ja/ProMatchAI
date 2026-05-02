@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 5. Administrative workflow from job creation to interview invitation</title>
+  <desc id="desc">An administrative workflow showing job creation, application collection, candidate recommendation, shortlist decision, and interview invitation in ProMatchAI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef3f9"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5f718b"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #18324f; }
+      .subtitle { font: 400 17px Arial, sans-serif; fill: #5e718a; }
+      .boxTitle { font: 700 23px Arial, sans-serif; fill: #17324f; }
+      .boxText { font: 400 18px Arial, sans-serif; fill: #35506d; }
+      .note { font: 400 15px Arial, sans-serif; fill: #5e718a; }
+    </style>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <text x="800" y="58" text-anchor="middle" class="title">Figure 5. Administrative Workflow from Job Creation to Interview Invitation</text>
+  <text x="800" y="92" text-anchor="middle" class="subtitle">The admin interface converts opportunity definitions and recommendation signals into shortlist and interview decisions.</text>
+
+  <rect x="90" y="390" width="230" height="120" rx="24" ry="24" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="205" y="442" text-anchor="middle" class="boxTitle">Create / Edit Job</text>
+  <text x="205" y="477" text-anchor="middle" class="boxText">Define skills, requirements,</text>
+  <text x="205" y="505" text-anchor="middle" class="boxText">location, work mode</text>
+
+  <rect x="390" y="390" width="240" height="120" rx="24" ry="24" fill="#eef5ff" stroke="#bfd3ef" stroke-width="3"/>
+  <text x="510" y="442" text-anchor="middle" class="boxTitle">Receive Applications</text>
+  <text x="510" y="477" text-anchor="middle" class="boxText">Candidate submissions</text>
+
+  <rect x="700" y="390" width="270" height="120" rx="24" ry="24" fill="#f2fbf8" stroke="#b9e5da" stroke-width="3"/>
+  <text x="835" y="442" text-anchor="middle" class="boxTitle">Generate Candidate</text>
+  <text x="835" y="472" text-anchor="middle" class="boxTitle">Recommendations</text>
+  <text x="835" y="505" text-anchor="middle" class="boxText">Reciprocal ranking output</text>
+
+  <polygon points="1120,330 1280,450 1120,570 960,450" fill="#fff8ef" stroke="#f0d7a6" stroke-width="3"/>
+  <text x="1120" y="428" text-anchor="middle" class="boxTitle">Suitable for</text>
+  <text x="1120" y="460" text-anchor="middle" class="boxTitle">shortlist?</text>
+
+  <rect x="1320" y="250" width="200" height="110" rx="24" ry="24" fill="#effbf4" stroke="#bae4c9" stroke-width="3"/>
+  <text x="1420" y="302" text-anchor="middle" class="boxTitle">Shortlist</text>
+  <text x="1420" y="335" text-anchor="middle" class="boxText">Save candidate</text>
+
+  <rect x="1320" y="420" width="200" height="110" rx="24" ry="24" fill="#f5f2ff" stroke="#d5c8f6" stroke-width="3"/>
+  <text x="1420" y="472" text-anchor="middle" class="boxTitle">Invite to Interview</text>
+  <text x="1420" y="505" text-anchor="middle" class="boxText">Add note and status</text>
+
+  <rect x="1320" y="620" width="200" height="110" rx="24" ry="24" fill="#fff1f1" stroke="#eab6b6" stroke-width="3"/>
+  <text x="1420" y="672" text-anchor="middle" class="boxTitle">Reject / Hold</text>
+  <text x="1420" y="705" text-anchor="middle" class="boxText">No shortlist action</text>
+
+  <rect x="760" y="760" width="420" height="110" rx="24" ry="24" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="970" y="812" text-anchor="middle" class="boxTitle">Administrative Outcome</text>
+  <text x="970" y="845" text-anchor="middle" class="boxText">Interview workflow and candidate communication are generated from recommendation and review data.</text>
+
+  <line x1="320" y1="450" x2="390" y2="450" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="630" y1="450" x2="700" y2="450" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="970" y1="450" x2="960" y2="450" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1280" y1="410" x2="1320" y2="335" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1280" y1="450" x2="1320" y2="475" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1120" y1="570" x2="1420" y2="620" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1420" y1="530" x2="1100" y2="760" stroke="#8ca0bb" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1420" y1="730" x2="1030" y2="760" stroke="#8ca0bb" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="1288" y="378" class="boxText">Yes</text>
+  <text x="1235" y="612" class="boxText">No</text>
+
+  <text x="800" y="950" text-anchor="middle" class="note">Source: Author-generated flowchart based on AdminPanel logic, shortlist operations, recommendation ranking, and interview invitation handling in the workspace.</text>
+</svg>

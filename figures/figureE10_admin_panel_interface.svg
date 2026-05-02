@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Figure E10. Administrative control panel overview</title>
+  <desc id="desc">A visual overview of the admin panel showing analytics, job management, applications, and recommendation-assisted candidate review.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef7fb"/>
+      <stop offset="100%" stop-color="#dbeaf6"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 32px Arial, sans-serif; fill: #18324f; }
+      .subtitle { font: 400 16px Arial, sans-serif; fill: #5d728c; }
+      .h1 { font: 700 24px Arial, sans-serif; fill: #17324f; }
+      .h2 { font: 700 19px Arial, sans-serif; fill: #17324f; }
+      .body { font: 400 17px Arial, sans-serif; fill: #35516e; }
+      .small { font: 400 14px Arial, sans-serif; fill: #6d8299; }
+    </style>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <text x="800" y="56" text-anchor="middle" class="title">Figure E10. Administrative Control Panel Overview</text>
+  <text x="800" y="88" text-anchor="middle" class="subtitle">Illustrative visual based on the implemented admin panel, highlighting analytics, records management, and recommendation-assisted screening.</text>
+
+  <rect x="100" y="130" width="1400" height="780" rx="34" ry="34" fill="#f8fcff" stroke="#cdddea" stroke-width="3"/>
+  <rect x="130" y="160" width="250" height="720" rx="28" ry="28" fill="#17324f"/>
+  <text x="190" y="220" style="font:700 24px Arial, sans-serif; fill:#ffffff;">Admin Panel</text>
+  <text x="170" y="290" style="font:400 17px Arial, sans-serif; fill:#d9e6f3;">Dashboard</text>
+  <text x="170" y="340" style="font:400 17px Arial, sans-serif; fill:#d9e6f3;">Users</text>
+  <text x="170" y="390" style="font:400 17px Arial, sans-serif; fill:#d9e6f3;">Jobs</text>
+  <text x="170" y="440" style="font:400 17px Arial, sans-serif; fill:#d9e6f3;">Courses</text>
+  <text x="170" y="490" style="font:400 17px Arial, sans-serif; fill:#d9e6f3;">Applications</text>
+  <text x="170" y="540" style="font:400 17px Arial, sans-serif; fill:#d9e6f3;">Shortlists</text>
+
+  <text x="430" y="210" class="h1">Administrative Analytics and Control</text>
+  <rect x="430" y="240" width="240" height="110" rx="24" ry="24" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <rect x="700" y="240" width="240" height="110" rx="24" ry="24" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <rect x="970" y="240" width="240" height="110" rx="24" ry="24" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <rect x="1240" y="240" width="220" height="110" rx="24" ry="24" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="470" y="285" class="h2">Refugees</text><text x="470" y="325" class="body">128</text>
+  <text x="740" y="285" class="h2">Jobs</text><text x="740" y="325" class="body">32 active</text>
+  <text x="1010" y="285" class="h2">Applications</text><text x="1010" y="325" class="body">214</text>
+  <text x="1280" y="285" class="h2">Matches</text><text x="1280" y="325" class="body">67</text>
+
+  <rect x="430" y="390" width="500" height="460" rx="28" ry="28" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="470" y="440" class="h1">Job and Application Management</text>
+  <rect x="470" y="470" width="420" height="56" rx="18" ry="18" fill="#f8fbff" stroke="#d9e7f2" stroke-width="2"/>
+  <text x="495" y="505" class="body">Frontend Developer · 18 applications</text>
+  <rect x="470" y="545" width="420" height="56" rx="18" ry="18" fill="#f8fbff" stroke="#d9e7f2" stroke-width="2"/>
+  <text x="495" y="580" class="body">Customer Support Role · 12 applications</text>
+  <rect x="470" y="620" width="420" height="56" rx="18" ry="18" fill="#f8fbff" stroke="#d9e7f2" stroke-width="2"/>
+  <text x="495" y="655" class="body">Tailoring Apprenticeship · 9 applications</text>
+
+  <rect x="970" y="390" width="490" height="460" rx="28" ry="28" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="1010" y="440" class="h1">Recommended Candidates</text>
+  <rect x="1010" y="470" width="410" height="70" rx="20" ry="20" fill="#f8fbff" stroke="#d9e7f2" stroke-width="2"/>
+  <text x="1040" y="505" class="body">Candidate A · 89% reciprocal score</text>
+  <text x="1040" y="530" class="small">Matched on skills, language, and training</text>
+  <rect x="1010" y="560" width="410" height="70" rx="20" ry="20" fill="#f8fbff" stroke="#d9e7f2" stroke-width="2"/>
+  <text x="1040" y="595" class="body">Candidate B · 78% reciprocal score</text>
+  <text x="1040" y="620" class="small">Strong profile fit with minor skill gaps</text>
+  <rect x="1010" y="670" width="180" height="42" rx="18" ry="18" fill="#1fc98a"/>
+  <text x="1100" y="698" text-anchor="middle" style="font:700 15px Arial, sans-serif; fill:#ffffff;">Shortlist</text>
+  <rect x="1210" y="670" width="210" height="42" rx="18" ry="18" fill="#2e63c3"/>
+  <text x="1315" y="698" text-anchor="middle" style="font:700 15px Arial, sans-serif; fill:#ffffff;">Invite to Interview</text>
+
+  <text x="800" y="945" text-anchor="middle" class="small">Suggested placement: Appendix E, as Figure E10. Also suitable for Chapter 4 when discussing admin-side workflows, analytics, and recommendation-assisted screening.</text>
+</svg>

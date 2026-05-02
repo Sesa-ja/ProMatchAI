@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Figure E6. Refugee dashboard interface overview</title>
+  <desc id="desc">A polished interface visual summarizing the main dashboard layout with recommended jobs, application summaries, statistics, and learning continuation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef7fb"/>
+      <stop offset="100%" stop-color="#dbeaf6"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f5bd8"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 32px Arial, sans-serif; fill: #18324f; }
+      .subtitle { font: 400 16px Arial, sans-serif; fill: #5d728c; }
+      .h1 { font: 700 26px Arial, sans-serif; fill: #17324f; }
+      .h2 { font: 700 20px Arial, sans-serif; fill: #17324f; }
+      .body { font: 400 17px Arial, sans-serif; fill: #35516e; }
+      .small { font: 400 14px Arial, sans-serif; fill: #6d8299; }
+      .white { fill: #ffffff; }
+      .card { fill: #ffffff; stroke: #d7e5f1; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <text x="800" y="56" text-anchor="middle" class="title">Figure E6. Refugee Dashboard Interface Overview</text>
+  <text x="800" y="88" text-anchor="middle" class="subtitle">Illustrative visual based on the implemented dashboard, showing personalized progress, applications, and AI-assisted recommendations.</text>
+
+  <rect x="100" y="130" width="1400" height="760" rx="34" ry="34" fill="#f8fcff" stroke="#cdddea" stroke-width="3"/>
+  <rect x="130" y="160" width="1340" height="80" rx="24" ry="24" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="190" y="210" class="h2">ProMatchAI</text>
+  <rect x="1260" y="180" width="160" height="40" rx="20" ry="20" fill="#eef5ff" stroke="#cbdcf0" stroke-width="2"/>
+  <text x="1340" y="206" text-anchor="middle" class="small">Language / Alerts</text>
+
+  <rect x="140" y="270" width="1320" height="150" rx="28" ry="28" fill="url(#hero)"/>
+  <text x="190" y="332" class="white" style="font:700 30px Arial, sans-serif;">Welcome Back, Candidate</text>
+  <text x="190" y="372" class="white" style="font:400 19px Arial, sans-serif;">Your profile, applications, and learning progress are summarized here.</text>
+  <rect x="1110" y="305" width="290" height="82" rx="24" ry="24" fill="#ffffff" fill-opacity="0.18" stroke="#ffffff" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="1255" y="343" text-anchor="middle" class="white" style="font:700 20px Arial, sans-serif;">AI Top Match</text>
+  <text x="1255" y="372" text-anchor="middle" class="white" style="font:400 17px Arial, sans-serif;">85% fit · Frontend Opportunity</text>
+
+  <rect x="140" y="450" width="420" height="120" rx="24" ry="24" class="card"/>
+  <rect x="590" y="450" width="420" height="120" rx="24" ry="24" class="card"/>
+  <rect x="1040" y="450" width="420" height="120" rx="24" ry="24" class="card"/>
+  <text x="180" y="500" class="h2">Completed Courses</text>
+  <text x="180" y="540" class="body">4</text>
+  <text x="630" y="500" class="h2">Applications</text>
+  <text x="630" y="540" class="body">3 active</text>
+  <text x="1080" y="500" class="h2">Skill Count</text>
+  <text x="1080" y="540" class="body">12 verified skills</text>
+
+  <rect x="140" y="610" width="640" height="240" rx="28" ry="28" class="card"/>
+  <text x="180" y="660" class="h1">My Applications</text>
+  <rect x="180" y="690" width="560" height="54" rx="18" ry="18" fill="#f8fbff" stroke="#d9e7f2" stroke-width="2"/>
+  <text x="205" y="724" class="body">Frontend Developer · Under Review</text>
+  <rect x="180" y="760" width="560" height="54" rx="18" ry="18" fill="#f8fbff" stroke="#d9e7f2" stroke-width="2"/>
+  <text x="205" y="794" class="body">Customer Support Role · Shortlisted</text>
+
+  <rect x="820" y="610" width="640" height="240" rx="28" ry="28" class="card"/>
+  <text x="860" y="660" class="h1">Continue Learning</text>
+  <rect x="860" y="690" width="560" height="54" rx="18" ry="18" fill="#f8fbff" stroke="#d9e7f2" stroke-width="2"/>
+  <text x="885" y="724" class="body">Web Development Basics</text>
+  <rect x="1090" y="708" width="280" height="12" rx="6" ry="6" fill="#dce7f0"/>
+  <rect x="1090" y="708" width="154" height="12" rx="6" ry="6" fill="#2e63c3"/>
+  <text x="885" y="794" class="body">German Language A1</text>
+  <rect x="1090" y="778" width="280" height="12" rx="6" ry="6" fill="#dce7f0"/>
+  <rect x="1090" y="778" width="98" height="12" rx="6" ry="6" fill="#1fc98a"/>
+
+  <text x="800" y="935" text-anchor="middle" class="small">Suggested placement: Appendix E, as Figure E6. Use in Chapter 4 only if dashboard interface discussion is central to the results narrative.</text>
+</svg>

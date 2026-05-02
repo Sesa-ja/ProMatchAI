@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Figure E7. Jobs and matching interface overview</title>
+  <desc id="desc">A visual overview of the jobs interface showing search, filters, AI match badges, and skill-alignment details.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef7fb"/>
+      <stop offset="100%" stop-color="#dbeaf6"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 32px Arial, sans-serif; fill: #18324f; }
+      .subtitle { font: 400 16px Arial, sans-serif; fill: #5d728c; }
+      .h1 { font: 700 24px Arial, sans-serif; fill: #17324f; }
+      .h2 { font: 700 19px Arial, sans-serif; fill: #17324f; }
+      .body { font: 400 17px Arial, sans-serif; fill: #35516e; }
+      .small { font: 400 14px Arial, sans-serif; fill: #6d8299; }
+    </style>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <text x="800" y="56" text-anchor="middle" class="title">Figure E7. Jobs and Matching Interface Overview</text>
+  <text x="800" y="88" text-anchor="middle" class="subtitle">Illustrative visual based on the implemented jobs tab, highlighting filters, AI-assisted scoring, and skill-gap guidance.</text>
+
+  <rect x="100" y="130" width="1400" height="780" rx="34" ry="34" fill="#f8fcff" stroke="#cdddea" stroke-width="3"/>
+  <text x="150" y="195" class="h1">Jobs and Opportunities</text>
+  <rect x="140" y="220" width="1320" height="58" rx="20" ry="20" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="175" y="257" class="small">Search jobs, companies, or locations</text>
+
+  <rect x="140" y="300" width="140" height="46" rx="18" ry="18" fill="#2e63c3"/>
+  <text x="210" y="330" text-anchor="middle" style="font:700 15px Arial, sans-serif; fill:#ffffff;">All</text>
+  <rect x="296" y="300" width="160" height="46" rx="18" ry="18" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="376" y="330" text-anchor="middle" class="small">Full-time</text>
+  <rect x="472" y="300" width="160" height="46" rx="18" ry="18" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="552" y="330" text-anchor="middle" class="small">Freelance</text>
+  <rect x="648" y="300" width="160" height="46" rx="18" ry="18" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="728" y="330" text-anchor="middle" class="small">Internship</text>
+
+  <rect x="140" y="380" width="1320" height="180" rx="28" ry="28" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="190" y="430" class="h1">Frontend Developer</text>
+  <text x="190" y="462" class="body">Tech Solutions GmbH · Berlin · Hybrid</text>
+  <rect x="1220" y="408" width="150" height="44" rx="22" ry="22" fill="#eaf8f2" stroke="#bfe2d0" stroke-width="2"/>
+  <text x="1295" y="437" text-anchor="middle" style="font:700 15px Arial, sans-serif; fill:#17865f;">85% Match</text>
+  <rect x="190" y="490" width="420" height="56" rx="18" ry="18" fill="#fbf7ff" stroke="#ead7ff" stroke-width="2"/>
+  <text x="215" y="524" class="body">AI insight: matched on skills and language</text>
+  <text x="760" y="448" class="h2">Matched Skills</text>
+  <rect x="760" y="470" width="110" height="34" rx="14" ry="14" fill="#eef5ff"/><text x="815" y="493" text-anchor="middle" class="small">React</text>
+  <rect x="885" y="470" width="110" height="34" rx="14" ry="14" fill="#eef5ff"/><text x="940" y="493" text-anchor="middle" class="small">TypeScript</text>
+  <rect x="1010" y="470" width="110" height="34" rx="14" ry="14" fill="#eef5ff"/><text x="1065" y="493" text-anchor="middle" class="small">UI Design</text>
+  <text x="760" y="533" class="h2">Missing Skills</text>
+  <rect x="760" y="548" width="130" height="34" rx="14" ry="14" fill="#fff7ef"/><text x="825" y="571" text-anchor="middle" class="small">Testing</text>
+
+  <rect x="140" y="590" width="1320" height="180" rx="28" ry="28" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="190" y="640" class="h1">Customer Support Associate</text>
+  <text x="190" y="672" class="body">Global Services Inc · Remote</text>
+  <rect x="1220" y="618" width="150" height="44" rx="22" ry="22" fill="#fff7ef" stroke="#f0d7a6" stroke-width="2"/>
+  <text x="1295" y="647" text-anchor="middle" style="font:700 15px Arial, sans-serif; fill:#b7791f;">68% Match</text>
+  <rect x="190" y="700" width="470" height="56" rx="18" ry="18" fill="#fbf7ff" stroke="#ead7ff" stroke-width="2"/>
+  <text x="215" y="734" class="body">AI insight: relevant skills found, additional training recommended</text>
+
+  <text x="800" y="945" text-anchor="middle" class="small">Suggested placement: Appendix E, as Figure E7. Also suitable for Chapter 4 when discussing recommendation output and skill-gap explanation.</text>
+</svg>

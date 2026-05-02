@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile UI Design System - ProMatchAI</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      background: #f5f5f5;
+      padding: 40px 20px;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    
+    h1 {
+      font-size: 36px;
+      color: #1f2937;
+      margin-bottom: 12px;
+    }
+    
+    .subtitle {
+      font-size: 18px;
+      color: #6b7280;
+      margin-bottom: 40px;
+    }
+    
+    .section {
+      margin-bottom: 48px;
+    }
+    
+    h2 {
+      font-size: 24px;
+      color: #1f2937;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+    
+    .card {
+      background: #f9fafb;
+      border-radius: 12px;
+      padding: 24px;
+      border: 1px solid #e5e7eb;
+    }
+    
+    .card h3 {
+      font-size: 18px;
+      color: #1f2937;
+      margin-bottom: 8px;
+    }
+    
+    .card p {
+      font-size: 14px;
+      color: #6b7280;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    
+    .card ul {
+      list-style: none;
+      font-size: 13px;
+      color: #6b7280;
+    }
+    
+    .card li {
+      margin-bottom: 6px;
+      padding-left: 20px;
+      position: relative;
+    }
+    
+    .card li:before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #10b981;
+      font-weight: bold;
+    }
+    
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 16px;
+    }
+    
+    .color-box {
+      text-align: center;
+    }
+    
+    .color-swatch {
+      height: 80px;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      border: 1px solid #e5e7eb;
+    }
+    
+    .color-name {
+      font-size: 12px;
+      color: #1f2937;
+      font-weight: 500;
+    }
+    
+    .color-code {
+      font-size: 11px;
+      color: #6b7280;
+      font-family: 'Courier New', monospace;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #2563EB;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      margin-right: 12px;
+      margin-bottom: 12px;
+    }
+    
+    .btn:hover {
+      background: #1d4ed8;
+    }
+    
+    .btn-outline {
+      background: white;
+      color: #2563EB;
+      border: 2px solid #2563EB;
+    }
+    
+    .btn-outline:hover {
+      background: #eff6ff;
+    }
+    
+    .feature-list {
+      columns: 2;
+      column-gap: 40px;
+    }
+    
+    .feature-list li {
+      margin-bottom: 12px;
+      padding-left: 24px;
+      position: relative;
+    }
+    
+    .feature-list li:before {
+      content: '●';
+      position: absolute;
+      left: 0;
+      color: #2563EB;
+    }
+    
+    @media (max-width: 768px) {
+      .feature-list {
+        columns: 1;
+      }
+      
+      .container {
+        padding: 24px;
+      }
+      
+      h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mobile UI Design System</h1>
+    <p class="subtitle">Clean, professional, and Android-ready design for ProMatchAI</p>
+    
+    <div class="section">
+      <h2>Quick Start</h2>
+      <a href="/?demo=mobile" class="btn">View Live Demo</a>
+      <a href="/" class="btn btn-outline">Back to App</a>
+      <a href="/MOBILE_UI_README.md" class="btn btn-outline" target="_blank">Documentation</a>
+    </div>
+    
+    <div class="section">
+      <h2>Screen Components</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>User Type Selection</h3>
+          <p>Choose account type with clear descriptions and icons</p>
+          <ul>
+            <li>Card-based selection</li>
+            <li>Visual feedback</li>
+            <li>Multiple user types</li>
+          </ul>
+        </div>
+        
+        <div class="card">
+          <h3>Authentication</h3>
+          <p>Complete login and signup flow with validation</p>
+          <ul>
+            <li>Email/password fields</li>
+            <li>Google sign-in</li>
+            <li>Password reset</li>
+            <li>Terms agreement</li>
+          </ul>
+        </div>
+        
+        <div class="card">
+          <h3>Application Tracking</h3>
+          <p>View and manage job applications with status</p>
+          <ul>
+            <li>Loading states</li>
+            <li>Status indicators</li>
+            <li>Empty/error states</li>
+            <li>Retry functionality</li>
+          </ul>
+        </div>
+        
+        <div class="card">
+          <h3>Email Settings</h3>
+          <p>Manage notification preferences easily</p>
+          <ul>
+            <li>Toggle switches</li>
+            <li>Save confirmation</li>
+            <li>Category organization</li>
+            <li>Persistent settings</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>Color Palette</h2>
+      <div class="color-grid">
+        <div class="color-box">
+          <div class="color-swatch" style="background: #2563EB;"></div>
+          <div class="color-name">Primary Blue</div>
+          <div class="color-code">#2563EB</div>
+        </div>
+        
+        <div class="color-box">
+          <div class="color-swatch" style="background: #ffffff; border: 2px solid #e5e7eb;"></div>
+          <div class="color-name">White</div>
+          <div class="color-code">#FFFFFF</div>
+        </div>
+        
+        <div class="color-box">
+          <div class="color-swatch" style="background: #f9fafb;"></div>
+          <div class="color-name">Gray 50</div>
+          <div class="color-code">#F9FAFB</div>
+        </div>
+        
+        <div class="color-box">
+          <div class="color-swatch" style="background: #1f2937;"></div>
+          <div class="color-name">Gray 900</div>
+          <div class="color-code">#1F2937</div>
+        </div>
+        
+        <div class="color-box">
+          <div class="color-swatch" style="background: #10b981;"></div>
+          <div class="color-name">Success</div>
+          <div class="color-code">#10B981</div>
+        </div>
+        
+        <div class="color-box">
+          <div class="color-swatch" style="background: #ef4444;"></div>
+          <div class="color-name">Error</div>
+          <div class="color-code">#EF4444</div>
+        </div>
+        
+        <div class="color-box">
+          <div class="color-swatch" style="background: #eab308;"></div>
+          <div class="color-name">Warning</div>
+          <div class="color-code">#EAB308</div>
+        </div>
+        
+        <div class="color-box">
+          <div class="color-swatch" style="background: #6b7280;"></div>
+          <div class="color-name">Gray 500</div>
+          <div class="color-code">#6B7280</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>Design Features</h2>
+      <ul class="feature-list">
+        <li>Clean sans-serif typography</li>
+        <li>Consistent blue primary color</li>
+        <li>Neutral white/gray backgrounds</li>
+        <li>No gradients or decorative effects</li>
+        <li>Fully scrollable mobile layouts</li>
+        <li>Loading states with skeletons</li>
+        <li>Error handling with retry</li>
+        <li>Empty state messaging</li>
+        <li>Professional Google sign-in</li>
+        <li>Password visibility toggle</li>
+        <li>Form validation</li>
+        <li>Success confirmations</li>
+        <li>Keyboard-friendly inputs</li>
+        <li>Touch-friendly buttons (48px)</li>
+        <li>Status indicators with icons</li>
+        <li>Standard Android UI patterns</li>
+      </ul>
+    </div>
+    
+    <div class="section">
+      <h2>Typography</h2>
+      <div class="grid">
+        <div class="card">
+          <h3 style="font-size: 24px; margin-bottom: 8px;">H1 - 24px</h3>
+          <p style="margin: 0;">Used for main screen titles</p>
+        </div>
+        
+        <div class="card">
+          <h3 style="font-size: 20px; margin-bottom: 8px;">H2 - 20px</h3>
+          <p style="margin: 0;">Used for section headings</p>
+        </div>
+        
+        <div class="card">
+          <h3 style="font-size: 16px; margin-bottom: 8px;">Body - 16px</h3>
+          <p style="margin: 0;">Used for main content text</p>
+        </div>
+        
+        <div class="card">
+          <h3 style="font-size: 14px; margin-bottom: 8px;">Small - 14px</h3>
+          <p style="margin: 0;">Used for secondary text</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>Component Sizes</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Input Fields</h3>
+          <p>Height: 48px (h-12)</p>
+          <p>Padding: 12px horizontal</p>
+          <p>Border radius: 8px</p>
+        </div>
+        
+        <div class="card">
+          <h3>Buttons</h3>
+          <p>Height: 48px (h-12)</p>
+          <p>Padding: 16px horizontal</p>
+          <p>Border radius: 12px</p>
+        </div>
+        
+        <div class="card">
+          <h3>Cards</h3>
+          <p>Padding: 16px (p-4)</p>
+          <p>Border radius: 12px</p>
+          <p>Shadow: soft shadow</p>
+        </div>
+        
+        <div class="card">
+          <h3>Icons</h3>
+          <p>Size: 20-24px (w-5 h-5)</p>
+          <p>Stroke width: 2px</p>
+          <p>Color: Context-based</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>Android Studio Integration</h2>
+      <div class="card">
+        <ul>
+          <li>All layouts use ScrollView compatible structure</li>
+          <li>No fixed positioning that blocks content</li>
+          <li>Keyboard-aware input fields with proper spacing</li>
+          <li>Safe area padding for notch devices</li>
+          <li>Touch targets meet 44px minimum size</li>
+          <li>Pull-to-refresh functionality ready</li>
+          <li>Back button navigation support</li>
+          <li>Material Design 3 compatible</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>Usage Instructions</h2>
+      <div class="card">
+        <h3>Access the Demo</h3>
+        <p>Add the following parameter to the app URL:</p>
+        <code style="display: block; background: #1f2937; color: #10b981; padding: 12px; border-radius: 6px; margin: 12px 0; font-family: 'Courier New', monospace;">
+          ?demo=mobile
+        </code>
+        <p>Example: <code>https://your-app.com/?demo=mobile</code></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

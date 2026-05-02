@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="930" viewBox="0 0 1600 930" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 6. Evaluation workflow used in this report</title>
+  <desc id="desc">A structured workflow showing codebase inspection, technical measurements, workflow tracing, recommendation analysis, build validation, and evidence synthesis.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef3f9"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5f718b"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #18324f; }
+      .subtitle { font: 400 17px Arial, sans-serif; fill: #5e718a; }
+      .boxTitle { font: 700 23px Arial, sans-serif; fill: #17324f; }
+      .boxText { font: 400 18px Arial, sans-serif; fill: #35506d; }
+      .note { font: 400 15px Arial, sans-serif; fill: #5e718a; }
+    </style>
+  </defs>
+  <rect width="1600" height="930" fill="url(#bg)"/>
+  <text x="800" y="58" text-anchor="middle" class="title">Figure 6. Evaluation Workflow Used in This Report</text>
+  <text x="800" y="92" text-anchor="middle" class="subtitle">The report evaluates ProMatchAI through repeatable artifact inspection, model analysis, and build verification.</text>
+
+  <rect x="120" y="250" width="280" height="120" rx="24" ry="24" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="260" y="302" text-anchor="middle" class="boxTitle">Codebase Inspection</text>
+  <text x="260" y="337" text-anchor="middle" class="boxText">Architecture files, source code,</text>
+  <text x="260" y="365" text-anchor="middle" class="boxText">components, backend routes</text>
+
+  <rect x="470" y="140" width="290" height="120" rx="24" ry="24" fill="#eef5ff" stroke="#bfd3ef" stroke-width="3"/>
+  <text x="615" y="192" text-anchor="middle" class="boxTitle">Technical Measurements</text>
+  <text x="615" y="227" text-anchor="middle" class="boxText">Files, lines, endpoints,</text>
+  <text x="615" y="255" text-anchor="middle" class="boxText">component counts</text>
+
+  <rect x="470" y="360" width="290" height="120" rx="24" ry="24" fill="#f2fbf8" stroke="#b9e5da" stroke-width="3"/>
+  <text x="615" y="412" text-anchor="middle" class="boxTitle">Workflow Tracing</text>
+  <text x="615" y="447" text-anchor="middle" class="boxText">User and admin feature</text>
+  <text x="615" y="475" text-anchor="middle" class="boxText">verification</text>
+
+  <rect x="840" y="140" width="290" height="120" rx="24" ry="24" fill="#fff8ef" stroke="#f0d7a6" stroke-width="3"/>
+  <text x="985" y="192" text-anchor="middle" class="boxTitle">Model Inspection</text>
+  <text x="985" y="227" text-anchor="middle" class="boxText">Weights, filters, similarity,</text>
+  <text x="985" y="255" text-anchor="middle" class="boxText">ranking logic</text>
+
+  <rect x="840" y="360" width="290" height="120" rx="24" ry="24" fill="#f5f2ff" stroke="#d5c8f6" stroke-width="3"/>
+  <text x="985" y="412" text-anchor="middle" class="boxTitle">Build Validation</text>
+  <text x="985" y="447" text-anchor="middle" class="boxText">Production compile,</text>
+  <text x="985" y="475" text-anchor="middle" class="boxText">bundle warnings, viability</text>
+
+  <polygon points="1230,260 1380,370 1230,480 1080,370" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="1230" y="348" text-anchor="middle" class="boxTitle">Evidence</text>
+  <text x="1230" y="378" text-anchor="middle" class="boxTitle">sufficient?</text>
+
+  <rect x="1290" y="140" width="200" height="90" rx="22" ry="22" fill="#effbf4" stroke="#bae4c9" stroke-width="3"/>
+  <text x="1390" y="193" text-anchor="middle" class="boxTitle">Synthesize</text>
+
+  <rect x="1290" y="520" width="200" height="90" rx="22" ry="22" fill="#fff1f1" stroke="#eab6b6" stroke-width="3"/>
+  <text x="1390" y="573" text-anchor="middle" class="boxTitle">Refine Analysis</text>
+
+  <rect x="1040" y="710" width="330" height="110" rx="24" ry="24" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="1205" y="762" text-anchor="middle" class="boxTitle">Results and Discussion</text>
+  <text x="1205" y="795" text-anchor="middle" class="boxText">Evidence-based conclusions for the report</text>
+
+  <line x1="400" y1="310" x2="470" y2="200" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="400" y1="310" x2="470" y2="420" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="760" y1="200" x2="840" y2="200" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="760" y1="420" x2="840" y2="420" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1130" y1="200" x2="1170" y2="290" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1130" y1="420" x2="1170" y2="450" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1230" y1="260" x2="1390" y2="230" stroke="#5f718b" stroke-width="4.5" marker-end="url(#arrow)"/>
+  <line x1="1230" y1="480" x2="1390" y2="520" stroke="#5f718b" stroke-width="4.5" marker-end="url(#arrow)"/>
+  <line x1="1390" y1="230" x2="1240" y2="710" stroke="#8ca0bb" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1390" y1="610" x2="1240" y2="710" stroke="#8ca0bb" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="1310" y="250" class="boxText">Yes</text>
+  <text x="1310" y="505" class="boxText">No</text>
+
+  <text x="800" y="905" text-anchor="middle" class="note">Source: Author-generated workflow based on the report methodology, shell commands, code inspection, and build verification performed in the workspace.</text>
+</svg>

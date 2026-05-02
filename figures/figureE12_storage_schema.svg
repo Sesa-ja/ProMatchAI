@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Figure E12. ProMatchAI hybrid storage schema</title>
+  <desc id="desc">A clean appendix diagram showing the hybrid storage model of ProMatchAI with client-side local storage, synchronization logic, and backend persistence services.</desc>
+  <defs>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2554d8"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5f718b"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #18324f; }
+      .subtitle { font: 400 17px Arial, sans-serif; fill: #5e718a; }
+      .boxTitle { font: 700 24px Arial, sans-serif; fill: #17324f; }
+      .boxText { font: 400 16px Arial, sans-serif; fill: #35506d; }
+      .coreTitle { font: 700 30px Arial, sans-serif; fill: #ffffff; }
+      .coreText { font: 400 18px Arial, sans-serif; fill: #eef6ff; }
+      .note { font: 400 15px Arial, sans-serif; fill: #5e718a; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="980" fill="#ffffff"/>
+  <text x="800" y="58" text-anchor="middle" class="title">Figure E12. ProMatchAI Hybrid Storage Schema</text>
+  <text x="800" y="92" text-anchor="middle" class="subtitle">The platform combines client-side caching with backend persistence so users can continue key workflows even when remote synchronization is delayed.</text>
+
+  <rect x="95" y="205" width="430" height="535" rx="30" ry="30" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="310" y="262" text-anchor="middle" class="boxTitle">Client-Side Storage Layer</text>
+
+  <rect x="145" y="305" width="330" height="110" rx="22" ry="22" fill="#f7fbff" stroke="#bfd3ef" stroke-width="3"/>
+  <text x="310" y="352" text-anchor="middle" class="boxTitle">localStorage Cache</text>
+  <text x="310" y="384" text-anchor="middle" class="boxText">Profiles, courses, applications,</text>
+  <text x="310" y="410" text-anchor="middle" class="boxText">notifications, and shortlist fallback</text>
+
+  <rect x="145" y="455" width="330" height="110" rx="22" ry="22" fill="#f7fdfa" stroke="#b9e5da" stroke-width="3"/>
+  <text x="310" y="502" text-anchor="middle" class="boxTitle">UI State and Drafts</text>
+  <text x="310" y="534" text-anchor="middle" class="boxText">Temporary edits, screen state,</text>
+  <text x="310" y="560" text-anchor="middle" class="boxText">and offline interaction continuity</text>
+
+  <rect x="145" y="605" width="330" height="110" rx="22" ry="22" fill="#fffaf5" stroke="#f0d7a6" stroke-width="3"/>
+  <text x="310" y="652" text-anchor="middle" class="boxTitle">Recovery Behaviour</text>
+  <text x="310" y="684" text-anchor="middle" class="boxText">Local reads remain available when</text>
+  <text x="310" y="710" text-anchor="middle" class="boxText">backend synchronization is unavailable</text>
+
+  <rect x="585" y="335" width="430" height="280" rx="34" ry="34" fill="url(#core)"/>
+  <text x="800" y="418" text-anchor="middle" class="coreTitle">Synchronization Layer</text>
+  <text x="800" y="468" text-anchor="middle" class="coreText">React services coordinate read, write,</text>
+  <text x="800" y="500" text-anchor="middle" class="coreText">merge, fallback, and refresh operations</text>
+  <text x="800" y="532" text-anchor="middle" class="coreText">across local and remote state</text>
+
+  <rect x="1075" y="205" width="430" height="535" rx="30" ry="30" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="1290" y="262" text-anchor="middle" class="boxTitle">Backend Persistence Layer</text>
+
+  <rect x="1125" y="305" width="330" height="110" rx="22" ry="22" fill="#fbf8ff" stroke="#d5c8f6" stroke-width="3"/>
+  <text x="1290" y="352" text-anchor="middle" class="boxTitle">Edge Function API</text>
+  <text x="1290" y="384" text-anchor="middle" class="boxText">CRUD routes, recommendations,</text>
+  <text x="1290" y="410" text-anchor="middle" class="boxText">analytics, and shortlist operations</text>
+
+  <rect x="1125" y="455" width="330" height="110" rx="22" ry="22" fill="#f5fcf7" stroke="#bae4c9" stroke-width="3"/>
+  <text x="1290" y="502" text-anchor="middle" class="boxTitle">Supabase KV Store</text>
+  <text x="1290" y="534" text-anchor="middle" class="boxText">Persistent records for users, jobs,</text>
+  <text x="1290" y="560" text-anchor="middle" class="boxText">courses, applications, and shortlist data</text>
+
+  <rect x="1125" y="605" width="330" height="110" rx="22" ry="22" fill="#fff7f7" stroke="#eab6b6" stroke-width="3"/>
+  <text x="1290" y="652" text-anchor="middle" class="boxTitle">Operational Services</text>
+  <text x="1290" y="684" text-anchor="middle" class="boxText">Health checks, dashboard summaries,</text>
+  <text x="1290" y="710" text-anchor="middle" class="boxText">and backend shortlist persistence</text>
+
+  <line x1="525" y1="460" x2="585" y2="460" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1015" y1="460" x2="1075" y2="460" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1075" y1="520" x2="1015" y2="520" stroke="#8ca0bb" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="585" y1="520" x2="525" y2="520" stroke="#8ca0bb" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="400" y="800" width="800" height="108" rx="24" ry="24" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="800" y="847" text-anchor="middle" class="boxTitle">Stored Entity Families</text>
+  <text x="800" y="879" text-anchor="middle" class="boxText">UserProfile, Job / Opportunity, Course, Application, ShortlistRecord,</text>
+  <text x="800" y="903" text-anchor="middle" class="boxText">notifications, and progress artifacts</text>
+
+  <text x="800" y="945" text-anchor="middle" class="note">Source: Author-generated storage view synthesized from App.tsx, localStorage usage, and Supabase function files in the current workspace.</text>
+</svg>

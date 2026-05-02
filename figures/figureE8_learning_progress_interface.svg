@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Figure E8. Learning and course progress interface overview</title>
+  <desc id="desc">A visual overview of the learning interface showing course cards, progress indicators, and offline learning support.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef7fb"/>
+      <stop offset="100%" stop-color="#dbeaf6"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 32px Arial, sans-serif; fill: #18324f; }
+      .subtitle { font: 400 16px Arial, sans-serif; fill: #5d728c; }
+      .h1 { font: 700 24px Arial, sans-serif; fill: #17324f; }
+      .h2 { font: 700 19px Arial, sans-serif; fill: #17324f; }
+      .body { font: 400 17px Arial, sans-serif; fill: #35516e; }
+      .small { font: 400 14px Arial, sans-serif; fill: #6d8299; }
+    </style>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <text x="800" y="56" text-anchor="middle" class="title">Figure E8. Learning and Course Progress Interface Overview</text>
+  <text x="800" y="88" text-anchor="middle" class="subtitle">Illustrative visual based on the implemented learning centre, showing course discovery, progress tracking, and offline support.</text>
+
+  <rect x="100" y="130" width="1400" height="780" rx="34" ry="34" fill="#f8fcff" stroke="#cdddea" stroke-width="3"/>
+  <text x="150" y="195" class="h1">Learning Centre</text>
+  <rect x="140" y="220" width="1320" height="58" rx="20" ry="20" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="175" y="257" class="small">Search courses</text>
+
+  <text x="150" y="340" class="h1">Featured Courses</text>
+  <rect x="140" y="365" width="280" height="210" rx="26" ry="26" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <rect x="165" y="390" width="230" height="105" rx="20" ry="20" fill="#e8f2ff"/>
+  <text x="280" y="455" text-anchor="middle" class="h2">Web Development Basics</text>
+  <text x="175" y="530" class="body">40 hours · Certificate</text>
+  <rect x="175" y="545" width="100" height="32" rx="14" ry="14" fill="#1fc98a"/><text x="225" y="567" text-anchor="middle" style="font:700 14px Arial, sans-serif; fill:#ffffff;">Enroll</text>
+
+  <rect x="450" y="365" width="280" height="210" rx="26" ry="26" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <rect x="475" y="390" width="230" height="105" rx="20" ry="20" fill="#eef7f3"/>
+  <text x="590" y="455" text-anchor="middle" class="h2">German Language A1</text>
+  <text x="485" y="530" class="body">30 hours · Offline available</text>
+  <rect x="485" y="545" width="120" height="32" rx="14" ry="14" fill="#2e63c3"/><text x="545" y="567" text-anchor="middle" style="font:700 14px Arial, sans-serif; fill:#ffffff;">Download</text>
+
+  <text x="150" y="650" class="h1">My Courses</text>
+  <rect x="140" y="680" width="1320" height="90" rx="24" ry="24" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="180" y="733" class="body">Customer Service Excellence</text>
+  <rect x="600" y="716" width="300" height="14" rx="7" ry="7" fill="#dce7f0"/>
+  <rect x="600" y="716" width="198" height="14" rx="7" ry="7" fill="#2e63c3"/>
+  <text x="930" y="733" class="small">66% complete</text>
+
+  <rect x="140" y="790" width="1320" height="90" rx="24" ry="24" fill="#ffffff" stroke="#d7e5f1" stroke-width="2"/>
+  <text x="180" y="843" class="body">Digital Communication for Work</text>
+  <rect x="600" y="826" width="300" height="14" rx="7" ry="7" fill="#dce7f0"/>
+  <rect x="600" y="826" width="114" height="14" rx="7" ry="7" fill="#1fc98a"/>
+  <text x="930" y="843" class="small">38% complete</text>
+
+  <text x="800" y="945" text-anchor="middle" class="small">Suggested placement: Appendix E, as Figure E8. Also suitable for Chapter 4 if discussing learning progression and course-completion support.</text>
+</svg>

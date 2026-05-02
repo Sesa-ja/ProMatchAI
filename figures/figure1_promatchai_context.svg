@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 1. ProMatchAI high-level socio-technical context</title>
+  <desc id="desc">A clean academic diagram showing refugee users and administrators interacting with the ProMatchAI platform, which connects jobs, learning, AI-assisted matching, and notifications to employment integration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef3f9"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5f718b"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #18324f; }
+      .subtitle { font: 400 17px Arial, sans-serif; fill: #5e718a; }
+      .boxTitle { font: 700 23px Arial, sans-serif; fill: #17324f; }
+      .boxText { font: 400 18px Arial, sans-serif; fill: #35506d; }
+      .coreTitle { font: 700 40px Arial, sans-serif; fill: #ffffff; }
+      .coreText { font: 400 22px Arial, sans-serif; fill: #eff8ff; }
+      .note { font: 400 15px Arial, sans-serif; fill: #5e718a; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="800" y="58" text-anchor="middle" class="title">Figure 1. ProMatchAI High-Level Socio-Technical Context</text>
+  <text x="800" y="92" text-anchor="middle" class="subtitle">The platform links refugee-facing employability support with administrative coordination and labour-market outcomes.</text>
+
+  <rect x="90" y="240" width="300" height="150" rx="24" ry="24" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="240" y="292" text-anchor="middle" class="boxTitle">Refugee / Job Seeker</text>
+  <text x="240" y="330" text-anchor="middle" class="boxText">Onboarding, profile building,</text>
+  <text x="240" y="358" text-anchor="middle" class="boxText">job search, courses, applications</text>
+
+  <rect x="90" y="510" width="300" height="150" rx="24" ry="24" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="240" y="562" text-anchor="middle" class="boxTitle">Admin / Employer</text>
+  <text x="240" y="600" text-anchor="middle" class="boxText">Job management, review,</text>
+  <text x="240" y="628" text-anchor="middle" class="boxText">shortlisting, interview decisions</text>
+
+  <rect x="520" y="300" width="560" height="290" rx="34" ry="34" fill="url(#core)"/>
+  <text x="800" y="390" text-anchor="middle" class="coreTitle">ProMatchAI Platform</text>
+  <text x="800" y="448" text-anchor="middle" class="coreText">Mobile-first employability, learning, and AI-assisted matching</text>
+  <text x="800" y="492" text-anchor="middle" class="coreText">Multilingual onboarding, profile-driven recommendations,</text>
+  <text x="800" y="536" text-anchor="middle" class="coreText">applications, progress tracking, and admin workflows</text>
+
+  <rect x="1220" y="120" width="270" height="110" rx="22" ry="22" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="1355" y="168" text-anchor="middle" class="boxTitle">Jobs and</text>
+  <text x="1355" y="198" text-anchor="middle" class="boxTitle">Apprenticeships</text>
+
+  <rect x="1220" y="270" width="270" height="110" rx="22" ry="22" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="1355" y="318" text-anchor="middle" class="boxTitle">Learning and</text>
+  <text x="1355" y="348" text-anchor="middle" class="boxTitle">Certificates</text>
+
+  <rect x="1220" y="420" width="270" height="110" rx="22" ry="22" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="1355" y="468" text-anchor="middle" class="boxTitle">AI-Assisted</text>
+  <text x="1355" y="498" text-anchor="middle" class="boxTitle">Matching</text>
+
+  <rect x="1220" y="570" width="270" height="110" rx="22" ry="22" fill="#ffffff" stroke="#cad9ea" stroke-width="3"/>
+  <text x="1355" y="618" text-anchor="middle" class="boxTitle">Notifications and</text>
+  <text x="1355" y="648" text-anchor="middle" class="boxTitle">Tracking</text>
+
+  <rect x="1270" y="760" width="220" height="95" rx="22" ry="22" fill="#eef8f5" stroke="#b8dfd3" stroke-width="3"/>
+  <text x="1380" y="804" text-anchor="middle" class="boxTitle">Employment</text>
+  <text x="1380" y="834" text-anchor="middle" class="boxTitle">Integration</text>
+
+  <line x1="390" y1="315" x2="520" y2="375" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="390" y1="585" x2="520" y2="520" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <line x1="1080" y1="360" x2="1220" y2="175" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1080" y1="420" x2="1220" y2="325" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1080" y1="470" x2="1220" y2="475" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="1080" y1="525" x2="1220" y2="625" stroke="#5f718b" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <line x1="1355" y1="230" x2="1380" y2="760" stroke="#8ca0bb" stroke-width="3.5" marker-end="url(#arrow)"/>
+  <line x1="1355" y1="380" x2="1380" y2="760" stroke="#8ca0bb" stroke-width="3.5" marker-end="url(#arrow)"/>
+  <line x1="1355" y1="530" x2="1380" y2="760" stroke="#8ca0bb" stroke-width="3.5" marker-end="url(#arrow)"/>
+  <line x1="1355" y1="680" x2="1380" y2="760" stroke="#8ca0bb" stroke-width="3.5" marker-end="url(#arrow)"/>
+
+  <text x="800" y="880" text-anchor="middle" class="note">Source: Author-generated diagram based on implemented ProMatchAI workflows in the current workspace.</text>
+</svg>
